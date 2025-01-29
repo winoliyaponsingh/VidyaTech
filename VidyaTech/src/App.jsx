@@ -6,7 +6,8 @@ import TeacherLogin from './components/Basics/TeacherLogin';
 import StudentSignup from './components/Basics/StudentSignup';
 import MainPage from './components/Basics/MainPage';
 import RailwayConcessionForm from './components/Features/RailwayConcession';
-
+import View_Notes_Student from './components/Features/View_Notes_Student';
+ 
 const App = () => {
   return (
     <div className='App'>
@@ -18,7 +19,8 @@ const App = () => {
           <Route path="/" element={<MainPage />} /> 
         </Routes>
       </Router>*/}
-    <RailwayConcessionForm></RailwayConcessionForm>
+
+    <View_Notes_Student/>
     </div>
   );
 };
