@@ -1,0 +1,64 @@
+.upload-notes-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.upload-notes-container h2 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+label {
+  font-size: 14px;
+  font-weight: bold;
+  color: #555;
+}
+
+input[type="text"],
+textarea,
+input[type="file"] {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: rgb(45,17,20);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(45,17,20);
+}
+
+button:active {
+  background-color: rgb(45,17,20);
+}
+
+p {
+  text-align: center;
+  font-size: 14px;
+  color: #d9534f;
+  margin-top: 15px;
+}

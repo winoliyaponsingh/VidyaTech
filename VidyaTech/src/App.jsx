@@ -7,6 +7,7 @@ import StudentSignup from './components/Basics/StudentSignup';
 import MainPage from './components/Basics/MainPage';
 import RailwayConcessionForm from './components/Features/RailwayConcession';
 import View_Notes_Student from './components/Features/View_Notes_Student';
+import Upload_Notes_Teacher from './components/Features/Upload_Notes_Teacher';
  
 const App = () => {
   return (
@@ -19,8 +20,8 @@ const App = () => {
           <Route path="/" element={<MainPage />} /> 
         </Routes>
       </Router>*/}
+<Upload_Notes_Teacher/>
 
-    <View_Notes_Student/>
     </div>
   );
 };
